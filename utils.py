@@ -832,7 +832,7 @@ def feedback(forward, backward=None, positive=False):
     """
     Defined for use in connect function
     Calculates a feedback loop
-    This version is for trasnfer function objects
+    This version is for transfer function objects
     Negative feedback is assumed, use positive=True for positive feedback
     Forward refers to the function that goes out of the comparator
     Backward refers to the function that goes into the comparator
