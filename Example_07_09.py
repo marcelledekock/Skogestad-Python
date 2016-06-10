@@ -3,19 +3,19 @@ import matplotlib.pyplot as plt
 
 
 def G_nom(s):
-    return 3 * (-2 * s + 1) / ((5 * s + 1) * (10 * s + 1))
+    return 3*(-2*s + 1)/((5*s + 1)*(10*s + 1))
 
 
 def K(s, kc):
-    return kc * (12.7 * s + 1) / (12.7 * s)
+    return kc*(12.7*s + 1)/(12.7*s)
 
 
 def W_I(s):
-    return (10 * s + 0.33) / ((10 / 5.25) * s + 1)
+    return (10*s + 0.33)/((10/5.25)*s + 1)
 
 
 def G_p(s):
-    return 4 * (-3 * s + 1) / ((4 * s + 1) ** 2)
+    return 4*(-3*s + 1)/((4*s + 1)** 2)
 
 
 def l_I(G_p, G_nom):
